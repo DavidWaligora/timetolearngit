@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    table{
+        border: solid 3px black;
+        border-collapse: collapse;
+    }
+
+    tr, td, th{
+        border: solid 1px;
+        height: 50px;
+        margin: 4px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    #kolom200px{
+        width: 200px;
+    }
+    #kolom100px{
+        width: 100px;
+    }
+    #groen{
+        background-color: lightgreen;
+    }
+    #rood{
+        background-color: red;
+    }
+</style>
+<body>
+    <table>
+        <caption>Aantal koppen koffie per persoon</caption>
+        <tr>
+            <th rowspan="5"><img src="Les 04 - Startbestanden/koffie.jpg" alt=""></th>
+            <th style="background-color: lightgray;" id="kolom200px">Naam</th>
+            <th style="background-color: lightgray;" id="kolom200px">Aantal koppen</th>
+            <th style="background-color: lightgray;" id="kolom100px">Type</th>
+            <th style="background-color: lightgray;" id="kolom100px">Suiker</th>
+        </tr>
+        <tr>
+            
+            <td>Jasper Vervliet</td>
+            <td>10</td>
+            <td>Zo zwart mogelijk</td>
+            <td id="groen"> Ja</td>
+        </tr>
+        <tr>
+            
+            <td>Maaike van den Bulc</td>
+            <td id="groen">15</td>
+            <td>Normaal</td>
+            <td id="rood">Nee</td>
+        </tr>
+        <tr>
+            
+            <td>Nele Beerten</td>
+            <td id="rood">0</td>
+            <td>Deca</td>
+            <td id="groen">Ja</td>
+        </tr>
+        <tr>
+            
+            <td>Anja Raymaekers</td>
+            <td>6</td>
+            <td>Normaal</td>
+            <td id="groen">Nee</td>
+        </tr>
+
+    </table>
+</body>
+</html>
